@@ -8,7 +8,7 @@ public class MonoFluxTest {
     @Test
     public void testMono() {
         Mono<?> monoString = Mono.just("itzbalaram")
-                //.then(Mono.error(new RuntimeException("Exception occurred")))
+                .then(Mono.error(new RuntimeException("Exception occurred")))
                 .log();
 
         monoString.subscribe(System.out::println,(e)->System.out.println(e.getMessage()));

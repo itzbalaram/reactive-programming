@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      database: ProductsDB
+      host: localhost
+      port: 27017
+
+#Mongo embedded version
+  mongodb:
+    embedded:
+      version: 4.0.21
+
+#spring.mongodb.embedded.version: 3.2.3
