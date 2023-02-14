@@ -9,8 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-//@Document(collation = "products")
-@Document(collection = "products")
+@Document(collection = "product")
 public class Product {
 
     @Id

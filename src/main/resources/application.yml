@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      database: ProductsDB
+      database: ProductDB
       host: localhost
       port: 27017
 
